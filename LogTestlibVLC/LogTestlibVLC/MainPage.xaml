@@ -6,6 +6,7 @@
 
     <StackLayout>
         <vlc:VideoView x:Name="videoView" MediaPlayer="{Binding _mediaPlayer}" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"/>
+        <Label x:Name="statusLabel" Text="Status: " HorizontalOptions="Center" VerticalOptions="End"/>
     </StackLayout>
 
 </ContentPage>
